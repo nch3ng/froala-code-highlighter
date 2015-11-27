@@ -41,3 +41,4 @@ Give the options when you initialize the Froala rich text editor
 </script>
 ```
 
+Done!
