@@ -9,7 +9,7 @@ The Froala plugin that you can quote your codes in the Froala rich text editor p
 
 <h2>Getting Started</h2>
 
-You will need to include the [froala editor](https://github.com/froala/wysiwyg-editor) and [prettify](https://github.com/froala/wysiwyg-editor)
+You will need to include the [froala editor](https://github.com/froala/wysiwyg-editor) and [prettify](https://github.com/froala/wysiwyg-editor) and also this plugin
 
 ```html
 <script src="js/froala.codepanel.js"></script>
