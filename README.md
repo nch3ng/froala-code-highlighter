@@ -21,7 +21,7 @@ Add the theme css
 
 <link rel="stylesheet" href="css/sunburst.css">
 ```
-
+sunburst theme example (code is not relevant):  
 ![alt tag](http://i359.photobucket.com/albums/oo37/Nate_Cheng/Screen%20Shot%202015-11-27%20at%2011.39.47%20AM_zpsjqxjpw6d.png)
 
 
