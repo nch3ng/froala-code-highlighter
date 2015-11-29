@@ -1,4 +1,4 @@
-# Froala-codePanel
+# froala-code-highlighter
 The Froala plugin that you can quote your codes in the Froala rich text editor panel and the codes shown as a terminal and added lines numbers.  The plugin is simple, I didn't add any fancy control, just for my feature use.
 
 HTML example in Froala Rich Text Editor:
