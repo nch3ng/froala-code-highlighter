@@ -1,7 +1,8 @@
 # Froala-codePanel
 The Froala plugin that you can quote your codes in the Froala rich text editor panel and the codes shown as a terminal and added lines numbers.  The plugin is simple, I didn't add any fancy control, just for my feature use.
 
-![alt tag](http://i359.photobucket.com/albums/oo37/Nate_Cheng/1_zpsze2ovpkd.png)
+HTML example in Froala Rich Text Editor:
+![alt tag](http://i359.photobucket.com/albums/oo37/Nate_Cheng/Screen%20Shot%202015-11-29%20at%203.52.37%20PM_zpskemha9k2.png)
 <h2>Requirements</h2>
 [Froala rich text editor](https://github.com/froala/wysiwyg-editor)
 
