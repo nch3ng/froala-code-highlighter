@@ -14,7 +14,7 @@ You will need to include the [froala editor](https://github.com/froala/wysiwyg-e
 
 Include the CSS in the head
 ```html
-<!-- Include Font Awesome. -->
+  <!-- Include Font Awesome. -->
   <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
   <!-- Include Editor style. -->
@@ -51,11 +51,16 @@ There are other two included, [sons-of-obsidian](http://rahularora.net/wp-conten
 
 You can find more [prettify color theme](http://jmblog.github.io/color-themes-for-google-code-prettify/) somewhere on the internet.
 
+Place a div in the body
+
+```html
+<div id='edit'></div>
+```
 Give the options when you initialize the Froala rich text editor
 
 ```javascript
 <script>
-  $(function() {
+  $(document).ready(function() {
     $('#edit').froalaEditor({
       toolbarButtons: ['codePanel'] /* and other toolbar buttons you want to add on */
     })
