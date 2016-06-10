@@ -1,0 +1,33 @@
+<html>
+<head>
+  <!-- Include Font Awesome. -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Include Editor style. -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+  
+
+  <link rel="stylesheet" href="../css/sunburst.css">
+  
+</head>
+<body>
+  
+  <div id='edit'></div>
+<!-- Include jQuery. -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!-- Include JS files. -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/js/froala_editor.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<script src="../js/froala.codepanel.js"></script>
+
+<script>
+  $( document ).ready(function() {
+    $('#edit').froalaEditor({
+      toolbarButtons: ['codePanel'] /* and other toolbar buttons you want to add on */
+    })
+  });
+</script>
+</body>
+</html>
