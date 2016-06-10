@@ -10,7 +10,28 @@ HTML example in Froala Rich Text Editor:
 
 <h2>Getting Started</h2>
 
-You will need to include the [froala editor](https://github.com/froala/wysiwyg-editor) and [prettify](https://github.com/froala/wysiwyg-editor) and also this plugin
+You will need to include the [froala editor](https://github.com/froala/wysiwyg-editor) and [prettify](https://github.com/google/code-prettify) and also this plugin
+
+Include the CSS in the head
+```html
+<!-- Include Font Awesome. -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Include Editor style. -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+```
+
+Include the JS
+
+```html
+  <!-- Include jQuery. -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <!-- Include JS files. -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.3.2/js/froala_editor.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+```
 
 ```html
 <script src="js/froala.codepanel.js"></script>
